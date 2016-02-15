@@ -5,6 +5,14 @@ Read or write to the HAProxy stats socket.
 
 This is a fork of https://github.com/nl5887/python-haproxy
 
+## Install
+
+This is available via the `pip` command:
+
+```bash
+pip install hapctl
+```
+
 ## CLI Usage
 
 This provides a `hapctl` command.
