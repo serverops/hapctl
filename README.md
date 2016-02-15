@@ -49,9 +49,9 @@ print(result) # [u'Name: HAProxy', u'Version: 1.4.18' ...]
 
 ## Available Commands
 
-Commands can be seein under section **9.2 "Unix Socket commands"** in the Haproxy 1.6 (current stable version) [management docs](http://www.haproxy.org/download/1.6/doc/configuration.txt).
+Available socket commands can be found under section **9.2 "Unix Socket commands"** in the Haproxy 1.6 (current stable version) [management docs](http://www.haproxy.org/download/1.6/doc/configuration.txt).
 
-Some common ones are shown here:
+Some common commands are shown here:
 
 ```
 clear counters : clear max statistics counters (add 'all' for all counters)
@@ -68,4 +68,3 @@ set timeout    : change a timeout setting
 disable server : set a server in maintenance mode
 enable server  : re-enable a server that was previously in maintenance mode
 ```
-
