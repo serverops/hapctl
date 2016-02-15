@@ -1,15 +1,9 @@
 python-haproxy
 ==============
 
-Read haproxy stats using socket.
+Read haproxy stats using the HAProxy control socket.
 
-## Install
-There are a few different ways you can install pyechonest:
-
-* Use setuptools: `easy_install -U python-haproxy`
-* Checkout the source: `git clone https://github.com/nl5887/python-haproxy.git` and install it yourself.
-
-based on [http://www.gefira.pl/blog/2011/07/01/accessing-haproxy-statistics-with-python/] (http://www.gefira.pl/blog/2011/07/01/accessing-haproxy-statistics-with-python)
+A fork of https://github.com/nl5887/python-haproxy
 
 
 ## Examples
