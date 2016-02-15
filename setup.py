@@ -20,8 +20,8 @@ setup(name='haproxy',
       author_email='chris@serverops.io',
       url='https://github.com/serverops/python-haproxy',
       license='MIT',
-      package_dir={'': 'lib'},
-      packages=find_packages('lib'),
+      package_dir={'': 'src'},
+      packages=find_packages('src'),
       install_requires=['click'],
       entry_points='''
           [console_scripts]
