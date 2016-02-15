@@ -2,7 +2,7 @@
 
 from socket import error as socket_error
 import click
-from haproxy import haproxy
+from hapctl import haproxy
 
 
 @click.command()
